@@ -1,0 +1,43 @@
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.quotebox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 600px;
+
+    background-color: rgba(96, 150, 180,0.8);
+    color: white;
+
+    border-radius: 30px;
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+
+    position: fixed;
+    bottom:0;
+
+    margin-bottom: 20px;
+}
+
+.quote span:first-child {
+    font-size: 18px;
+    margin-bottom: 10px;;
+}
+
+
+.quote span:last-child {
+    font-size: 15px;
+    font-weight: 200;
+}

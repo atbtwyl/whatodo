@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WHATODO</title>
+  </head>
+  <body>
+    <!-- 💥 -->
+    <div class="weather">
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="clockwelcome">
+      <!-- 💥 -->
+      <h2 class="clock">00:00:00</h2>
+      <h1 class="new-user-add hidden"></h1>
+      <!-- 💥 -->
+      <form class="enter-form hidden">
+        <input
+          required
+          maxlength="10"
+          type="text"
+          placeholder="What is your name?"
+        />
+        <input type="submit" value="ENTER" />
+      </form>
+    </div>
+
+    <!--🔽 -->
+    <form class="todo-form hidden">
+      <input
+        type="tex"
+        placeholder="What is your main focus for today?"
+        required
+      />
+    </form>
+    <div class="todobox">
+      <ul class="todo-list"></ul>
+    </div>
+
+    <!--🔽 -->
+    <div class="quote">
+      <div class="quotebox">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <!--🔽 -->
+    <script src="js/clockwelcome.js"></script>
+    <script src="js/bgimg.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>

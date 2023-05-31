@@ -1,0 +1,35 @@
+/*
+font-family: 'Oswald', sans-serif;
+weight: 200/400
+
+font-family: 'Poppins', sans-serif;
+weight: 200/300/400/600/800
+*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Poppins:wght@200;300;400;600;800&display=swap');
+
+@import "reset.css";
+@import "variables.css";
+
+
+/* Component */
+@import "component/bgimg.css";
+@import "component/newuser.css";
+@import "component/clock.css";
+@import "component/quotes.css";
+@import "component/todo.css";
+@import "component/weather.css";
+
+
+
+
+
+.hidden {
+    display: none;
+}
+
+body {
+    height: 100vh;
+    color: rgb(39, 55, 77);
+
+    font-family: 'Poppins', sans-serif;
+}

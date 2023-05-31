@@ -1,0 +1,15 @@
+.bgimg {
+    position: absolute;
+    overflow: hidden;
+    object-fit: cover;
+    width:100%;
+    min-height: 100%;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    Left: 0;
+
+    opacity: 50%;
+    z-index: -1;
+}

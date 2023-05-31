@@ -1,0 +1,75 @@
+.clockwelcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.enter-form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0px 100px;
+}
+
+.enter-form input:first-child {
+    padding: 20px 10px;
+    background-color: rgba(255,255,255,0);
+    
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+
+    border: 0px solid black;
+    border-bottom: 2px solid rgba(39, 55, 77,0.5);
+
+    width: 100%;
+
+    display:flex;
+    justify-content: center;
+}
+
+.enter-form input:first-child::placeholder {
+    color:rgba(39, 55, 77,0.4);
+}
+
+.enter-form input:first-child:focus::placeholder {
+    color: transparent;
+}
+
+
+
+.enter-form input:last-child {
+    padding: 10px 10px;
+    background-color:rgba(39, 55, 77,0.9);
+    color: white;
+
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+
+    border: 0px solid black;
+    border-radius: 20px;
+    margin-top: 30px;
+
+    width: 50%;
+    height: 40px;
+}
+
+.new-user-add {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+    color: var(--maincolor);
+
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
